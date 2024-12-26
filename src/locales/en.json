@@ -1,0 +1,67 @@
+
+
+{
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "I am a Web Developer with experience as a Customer Support Agent. I have outstanding skills in Front-End, React, and relational databases.",
+      "My training and experience have allowed me to develop solid communication and problem-solving skills. I am focused on creating efficient and functional solutions that improve the user experience and optimize processes.",
+      "I look for opportunities to apply my technical knowledge and contribute to the success of innovative projects."
+    ]
+  },
+  "hero": {
+    "title": "Full Stack Developer",
+    "description": "Crafting modern web experiences with React, Next.js, and TypeScript",
+    "button": "Hire Me",
+    "buttonC": "Change to Spanish"
+  },
+  "services": {
+    "title": "My Services",
+    "items": [
+      {
+        "title": "Static Websites",
+        "description": "Fast, responsive, and SEO-friendly static websites built with modern technologies.",
+        "icon": "Globe",
+        "button" : "Learn More"
+      },
+      {
+        "title": "E-commerce Solutions",
+        "description": "Custom e-commerce platforms with secure payment integration and inventory management.",
+        "icon": "ShoppingCart",
+        "button" : "Learn More"
+      },
+      {
+        "title": "Web Applications",
+        "description": "Full-stack web applications with robust backend integration and user authentication.",
+        "icon": "Layout",
+        "button" : "Learn More"
+      },
+      {
+        "title": "Progressive Web Apps",
+        "description": "Mobile-first progressive web apps that work offline and can be installed on devices.",
+        "icon": "Smartphone",
+        "button" : "Learn More"
+      }
+    ]
+  },
+  "skills" : {
+    "title" : "Skills & Tools"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "information": {
+      "title": "Contact Information",
+      "phone": "+58 416 257-2870",
+      "email": "isaac.pereira.50159@gmail.com",
+      "github": "GitHub Profile",
+      "linkedin": "LinkedIn Profile"
+    },
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "subjectPlaceholder": "Subject",
+      "messagePlaceholder": "Your Message",
+      "button": "Send Message"
+    }
+  }
+}

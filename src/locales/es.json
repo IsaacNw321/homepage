@@ -1,0 +1,65 @@
+{
+  "about": {
+    "title": "Sobre Mí",
+    "paragraphs": [
+      "Soy un Desarrollador Web con experiencia como Agente de Soporte al Cliente. Tengo habilidades destacadas en Front-End, React y bases de datos relacionales.",
+      "Mi formación y experiencia me han permitido desarrollar sólidas habilidades de comunicación y resolución de problemas. Estoy enfocado en crear soluciones eficientes y funcionales que mejoren la experiencia del usuario y optimicen los procesos.",
+      "Busco oportunidades para aplicar mis conocimientos técnicos y contribuir al éxito de proyectos innovadores."
+    ]
+  },
+  "hero": {
+    "title": "Desarrollador Full Stack",
+    "description": "Creando experiencias web modernas con React, Next.js y TypeScript",
+    "button": "Contrátame",
+    "buttonC": "Cambiar a Ingles"
+  },
+  "skills" : {
+    "title" : "Herramientas & Habilidades"
+  },
+  "services": {
+    "title": "Mis Servicios",
+    "items": [
+      {
+        "title": "Sitios Web Estáticos",
+        "description": "Sitios web estáticos rápidos, receptivos y optimizados para SEO construidos con tecnologías modernas.",
+        "icon": "Globe",
+        "button": "Saber Más"
+      },
+      {
+        "title": "Soluciones de E-commerce",
+        "description": "Plataformas de comercio electrónico personalizadas con integración de pagos seguros y gestión de inventario.",
+        "icon": "ShoppingCart",
+        "button": "Saber Más"
+      },
+      {
+        "title": "Aplicaciones Web",
+        "description": "Aplicaciones web de pila completa con integración robusta de backend y autenticación de usuarios.",
+        "icon": "Layout",
+        "button": "Saber Más"
+      },
+      {
+        "title": "Aplicaciones Web Progresivas",
+        "description": "Aplicaciones web progresivas móviles que funcionan sin conexión y se pueden instalar en dispositivos.",
+        "icon": "Smartphone",
+        "button": "Saber Más"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "information": {
+      "title": "Información de Contacto",
+      "phone": "+58 416 257-2870",
+      "email": "isaac.pereira.50159@gmail.com",
+      "github": "Perfil de GitHub",
+      "linkedin": "Perfil de LinkedIn"
+    },
+    "form": {
+      "namePlaceholder": "Tu Nombre",
+      "emailPlaceholder": "Tu Correo Electrónico",
+      "subjectPlaceholder": "Asunto",
+      "messagePlaceholder": "Tu Mensaje",
+      "button": "Enviar Mensaje"
+    }
+  }
+}
