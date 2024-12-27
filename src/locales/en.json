@@ -35,12 +35,6 @@
         "description": "Full-stack web applications with robust backend integration and user authentication.",
         "icon": "Layout",
         "button" : "Learn More"
-      },
-      {
-        "title": "Progressive Web Apps",
-        "description": "Mobile-first progressive web apps that work offline and can be installed on devices.",
-        "icon": "Smartphone",
-        "button" : "Learn More"
       }
     ]
   },

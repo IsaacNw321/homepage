@@ -8,7 +8,7 @@ export default function Hero() {
   }
   return (
     <section
-  className="h-screen relative"
+  className="w-[1150px] h-[2100px] flex justify-center xs:w-full xs:h-[calc(100vh-112px)]"
   style={{
     backgroundImage: `url(${avatar})`,
     backgroundSize: 'cover',
@@ -22,9 +22,6 @@ export default function Hero() {
     <p className="text-lg sm:text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl">
       {translations.hero.description}
     </p>
-    <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-base sm:text-lg">
-      {translations.hero.button}
-    </button>
     <button
       onClick={onClick}
       className="bg-blue-600 hover:bg-blue-700 mt-6 text-white font-bold py-2 px-4 rounded text-base sm:text-lg"
