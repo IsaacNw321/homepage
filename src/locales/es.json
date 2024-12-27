@@ -36,12 +36,6 @@
         "description": "Aplicaciones web de pila completa con integración robusta de backend y autenticación de usuarios.",
         "icon": "Layout",
         "button": "Saber Más"
-      },
-      {
-        "title": "Aplicaciones Web Progresivas",
-        "description": "Aplicaciones web progresivas móviles que funcionan sin conexión y se pueden instalar en dispositivos.",
-        "icon": "Smartphone",
-        "button": "Saber Más"
       }
     ]
   },

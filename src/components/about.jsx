@@ -3,7 +3,7 @@ import { UseT } from '../context/LanguageContext';
 export default function About() {
   const {translations} = UseT();
   return (
-    <section className="py-8 px-20">
+    <section className=" mt-10 w-[1150px] h-[650px] flex justify-center xs:w-full xs:h-[calc(100vh-112px)]">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
