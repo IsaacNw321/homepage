@@ -16,8 +16,8 @@ export default function Services() {
   const { translations } = UseT();
   const services = translations.services.items
   return (
-    <section className="mt-10 w-[1150px] h-[1000px] flex justify-center xs:w-full xs:h-[calc(1000px-112px)] bg-gray-900">
-      <div className="max-w-6xl mx-auto">
+    <section className="w-2/5 ml-16 md:ml-0 lg:ml-0 mt-10 h-auto  md:w-auto md:h-auto flex justify-center lg:w-full lg:h-auto bg-transparent md:bg-gray-900 lg:bg-gray-900">
+      <div className="max-w-6xl mx-auto h-auto">
         <h2 className=" mt-10 text-4xl font-bold text-center mb-12">{translations.services.title}</h2>
         <Swiper
           modules={[Navigation, Pagination]}
@@ -30,7 +30,7 @@ export default function Services() {
               slidesPerView: 2,
             },
           }}
-          className="flex justify-center items-center"
+          className="flex flex-col lg:flex-row justify-center items-center "
         >
          {services.map((service, index) => {
   const IconComponent = iconMap[service.icon];
@@ -43,9 +43,9 @@ export default function Services() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: index * 0.1 }}
-        className="flex justify-center items-center"
+        className="flex justify-center items-center h-auto"
       >
-        <div className="bg-gray-800 p-6 rounded-lg h-full text-center">
+        <div className="bg-gray-800 p-6 ml-8 md:ml-0 lg:ml-0 rounded-lg h-90 lg:h-auto w-80 lg:w-96 text-center">
           <h3 className="text-xl font-bold mb-2">{service.title}</h3>
           <p className="text-gray-400 mb-4">{service.description}</p>
           {IconComponent ? <IconComponent color="#2563EB" size={48} /> : null}

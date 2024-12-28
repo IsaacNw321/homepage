@@ -5,14 +5,14 @@ import { UseT } from '../context/LanguageContext'
 export default function Contact() {
   const {translations} = UseT();
   return (
-    <section className="py-20 px-4 bg-gray-900">
+    <section className="w-2/5 ml-8 md:ml-0 lg:ml-0 md:w-auto lg:w-auto py-20 px-4 bg-transparent md:bg-gray-900 lg:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className=" mt-10 text-4xl font-bold text-center mb-12">{translations.contact.title}</h2>
+          <h2 className=" ml-14 md:ml-0 lg:ml-0 mt-10 text-4xl font-bold text-center mb-12">{translations.contact.title}</h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-gray-800 p-6 rounded-lg">
               <h3 className="text-2xl font-semibold mb-6">{translations.contact.information.title}</h3>
