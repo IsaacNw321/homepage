@@ -8,23 +8,24 @@ export default function Hero() {
   }
   return (
     <section
-  className="w-[1150px] h-[2100px] flex justify-center xs:w-full xs:h-[calc(100vh-112px)]"
+  className="w-2/5 h-full ml-16 md:ml-0 lg:ml-0 md:w-auto md:h-96 flex justify-center lg:w-full lg:h-[calc(100vh-112px)]"
   style={{
     backgroundImage: `url(${avatar})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
+    height: 'calc(100vh - 112px)',
   }}
 >
   <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
+    <h1 className="flex justify-center items-center text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 h-48">
       {translations.hero.title}
     </h1>
-    <p className="text-lg sm:text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl">
+    <p className="text-3xl md:text-2xl mb-8 text-gray-300 max-w-2xl h-32 ">
       {translations.hero.description}
     </p>
     <button
       onClick={onClick}
-      className="bg-blue-600 hover:bg-blue-700 mt-6 text-white font-bold py-2 px-4 rounded text-base sm:text-lg"
+      className=" mb-24 md:mb-0 lg:mb-0 bg-blue-600 hover:bg-blue-700 mt-6 text-white font-bold py-2 px-4 rounded text-base sm:text-lg"
     >
       {translations.hero.buttonC}
     </button>
