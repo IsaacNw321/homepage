@@ -1,21 +1,25 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { Helmet } from 'react-helmet';
 
-const RootLayout: React.FC = ({ children }) => {
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Resume of Isaac Pereira." />
+        <meta name="keywords" content="React, Helmet, SEO, Web Development" />
+        <meta name="author" content="Isaac Pereira" />
+        <meta name="audience" content="General" />
+        <meta charSet="utf-8" />
+        <title>My Website</title>
       </Helmet>
-      <header className="bg-gray-800 text-white p-4">
-        <h1 className="text-2xl">My Website</h1>
-      </header>
       <main className="flex-grow p-4">
         {children}
       </main>
-      <footer className="bg-gray-800 text-white p-4 text-center">
-        &copy; 2024 My Website
-      </footer>
     </div>
   );
 };
