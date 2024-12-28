@@ -5,9 +5,11 @@ import Skills from './components/skills'
 import Services from './components/services'
 import Contact from './components/contact'
 import { LanguageProvider } from './context/LanguageContext'
+import RootLayout from './layout/RootLayout'
 function App() {
 
   return (
+    <RootLayout>
     <LanguageProvider>
     <main className="min-h-screen bg-black text-white">
     <Hero />
@@ -17,6 +19,7 @@ function App() {
     <Contact />
     </main>
     </LanguageProvider>
+    </RootLayout>
   )
 }
 
