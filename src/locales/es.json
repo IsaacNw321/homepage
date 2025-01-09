@@ -36,6 +36,18 @@
         "description": "Aplicaciones web de pila completa con integración robusta de backend y autenticación de usuarios.",
         "icon": "Layout",
         "button": "Saber Más"
+      },
+      {
+        "title": "Asistente Virtual",
+        "description": "Experto en gestionar tareas administrativas utilizando herramientas como Google Calendar, Notion y Trello para mejorar la productividad y organización.",
+        "icon": "BriefcaseBusiness",
+        "button": "Aprender Más"
+      },
+      {
+        "title": "Agente de Soporte al Cliente",
+        "description": "Competente en comunicación bilingüe, brindando un servicio al cliente excepcional con herramientas como Zendesk y Salesforce.",
+        "icon": "Headphones",
+        "button": "Aprender Más"
       }
     ]
   },

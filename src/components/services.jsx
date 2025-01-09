@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Globe, ShoppingCart, Layout, Smartphone } from 'lucide-react';
+import { Globe, ShoppingCart, Layout, Smartphone, Headphones,BriefcaseBusiness }  from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { UseT } from '../context/LanguageContext';
@@ -9,14 +9,15 @@ const iconMap = {
   Globe,
   ShoppingCart,
   Layout,
-  Smartphone
+  Smartphone,
+  BriefcaseBusiness,
+  Headphones
 };
-
 export default function Services() {
   const { translations } = UseT();
   const services = translations.services.items
   return (
-    <section className="w-2/5 ml-16 md:ml-0 lg:ml-0 mt-10 h-auto  md:w-auto md:h-auto flex justify-center lg:w-full lg:h-auto bg-transparent md:bg-gray-900 lg:bg-gray-900">
+    <section className="w-72 mt-10 h-auto  md:w-auto md:h-auto flex justify-center lg:w-full lg:h-auto bg-transparent md:bg-gray-900 lg:bg-gray-900">
       <div className="max-w-6xl mx-auto h-auto">
         <h2 className=" mt-10 text-4xl font-bold text-center mb-12">{translations.services.title}</h2>
         <Swiper
