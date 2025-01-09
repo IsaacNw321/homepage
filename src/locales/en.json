@@ -22,19 +22,31 @@
         "title": "Static Websites",
         "description": "Fast, responsive, and SEO-friendly static websites built with modern technologies.",
         "icon": "Globe",
-        "button" : "Learn More"
+        "button": "Learn More"
       },
       {
         "title": "E-commerce Solutions",
         "description": "Custom e-commerce platforms with secure payment integration and inventory management.",
         "icon": "ShoppingCart",
-        "button" : "Learn More"
+        "button": "Learn More"
       },
       {
         "title": "Web Applications",
         "description": "Full-stack web applications with robust backend integration and user authentication.",
         "icon": "Layout",
-        "button" : "Learn More"
+        "button": "Learn More"
+      },
+      {
+        "title": "Virtual Assistant",
+        "description": "Expert in managing administrative tasks using tools like Google Calendar, Notion, and Trello to enhance productivity and organization.",
+        "icon": "BriefcaseBusiness",
+        "button": "Learn More"
+      },
+      {
+        "title": "Customer Support Agent",
+        "description": "Proficient in bilingual communication, providing exceptional customer service with tools like Zendesk and Salesforce.",
+        "icon": "Headphones",
+        "button": "Learn More"
       }
     ]
   },

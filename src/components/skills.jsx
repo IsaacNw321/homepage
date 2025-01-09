@@ -20,10 +20,10 @@ const skills = [
 export default function Skills() {
   const {translations} = UseT();
   return (
-    <section className="ml-20 md:ml-0 lg:ml-0 py-20 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-left mr-24 md:mr-0 lg:mr-0 text-4xl font-bold  lg:text-center mb-12">{translations.skills.title}</h2>
-        <div className="ml-6 md:ml-0 lg:ml-0 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6">
+    <section className="w-72 md:w-auto lg:w-full  py-20 px-4">
+      <div className="  mx-auto">
+        <h2 className="text-3xl font-bold  lg:text-center mb-12">{translations.skills.title}</h2>
+        <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6">
           {skills.map((skill, index) => (
             <motion.div
               key={skill.name}
@@ -31,7 +31,7 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
             >
-              <div className="bg-gray-900 w-96 md:w-60 lg:w-48 h-60 p-6 rounded-lg flex flex-col justify-center items-center">
+              <div className="bg-gray-900 w-72 md:w-60 lg:w-48 h-60 p-6 rounded-lg flex flex-col justify-center items-center">
                 <skill.icon size={48} color={skill.color} className="mb-4" />
                 <h3 className="text-lg font-medium">{skill.name}</h3>
               </div>
