@@ -8,7 +8,7 @@ export default function Hero() {
   }
   return (
     <section
-  className="w-72 h-full md:w-auto md:h-96 flex justify-center lg:w-full lg:h-[calc(100vh-112px)]"
+  className="w-72 h-full md:w-auto md:h-96 flex justify-center lg:w-full lg:h-[calc(100vh-112px)] px-0"
   style={{
     backgroundImage: `url(${avatar})`,
     backgroundSize: 'cover',
@@ -16,7 +16,7 @@ export default function Hero() {
     height: 'calc(100vh - 112px)',
   }}
 >
-  <div className=" w-72 md:w-auto lg:w-full relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+  <div className=" w-72 md:w-auto lg:w-full relative z-10 flex flex-col items-center justify-center h-full text-center">
     <h1 className="flex justify-center items-center text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 h-48">
       {translations.hero.title}
     </h1>

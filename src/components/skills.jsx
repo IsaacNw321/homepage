@@ -20,7 +20,7 @@ const skills = [
 export default function Skills() {
   const {translations} = UseT();
   return (
-    <section className="w-72 md:w-auto lg:w-full  py-20 px-4">
+    <section className="w-72 md:w-auto lg:w-full  py-20 px-0">
       <div className="  mx-auto">
         <h2 className="text-3xl font-bold  lg:text-center mb-12">{translations.skills.title}</h2>
         <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6">

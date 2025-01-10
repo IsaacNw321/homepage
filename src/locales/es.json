@@ -21,33 +21,31 @@
     "items": [
       {
         "title": "Sitios Web Estáticos",
-        "description": "Sitios web estáticos rápidos, receptivos y optimizados para SEO construidos con tecnologías modernas.",
+        "description": "Sitios web estáticos rápidos, responsivos y optimizados para SEO construidos con tecnologías modernas.",
         "icon": "Globe",
-        "button": "Saber Más"
-      },
-      {
-        "title": "Soluciones de E-commerce",
-        "description": "Plataformas de comercio electrónico personalizadas con integración de pagos seguros y gestión de inventario.",
-        "icon": "ShoppingCart",
-        "button": "Saber Más"
+        "button": "Ver Más",
+        "link": "https://daapp-sandy.vercel.app/"
       },
       {
         "title": "Aplicaciones Web",
-        "description": "Aplicaciones web de pila completa con integración robusta de backend y autenticación de usuarios.",
+        "description": "Aplicaciones web full-stack con integración robusta de backend y autenticación de usuarios.",
         "icon": "Layout",
-        "button": "Saber Más"
+        "button": "Saber Más",
+        "link": "https://example.com/web-applications"
       },
       {
         "title": "Asistente Virtual",
-        "description": "Experto en gestionar tareas administrativas utilizando herramientas como Google Calendar, Notion y Trello para mejorar la productividad y organización.",
+        "description": "Experto en la gestión de tareas administrativas utilizando herramientas como Google Calendar, Notion y Trello para mejorar la productividad y organización.",
         "icon": "BriefcaseBusiness",
-        "button": "Aprender Más"
+        "button": "Descargar CV",
+        "download": "/path/to/virtual-assistant-cv.pdf"
       },
       {
         "title": "Agente de Soporte al Cliente",
-        "description": "Competente en comunicación bilingüe, brindando un servicio al cliente excepcional con herramientas como Zendesk y Salesforce.",
+        "description": "Competente en comunicación bilingüe, proporcionando un servicio al cliente excepcional con herramientas como Zendesk y Salesforce.",
         "icon": "Headphones",
-        "button": "Aprender Más"
+        "button": "Descargar CV",
+        "download": "/path/to/customer-support-cv.pdf"
       }
     ]
   },
