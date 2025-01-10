@@ -1,4 +1,4 @@
-import avatar from '../images/avatar2.png';
+import Me from '../images/Me.jpeg';
 import { UseT } from '../context/LanguageContext';
 
 export default function Hero() {
@@ -10,7 +10,7 @@ export default function Hero() {
     <section
   className="w-72 h-full md:w-auto md:h-96 flex justify-center lg:w-full lg:h-[calc(100vh-112px)] px-0"
   style={{
-    backgroundImage: `url(${avatar})`,
+    backgroundImage: `url(${Me})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: 'calc(100vh - 112px)',
