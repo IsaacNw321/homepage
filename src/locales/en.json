@@ -30,14 +30,7 @@
       "description": "Full-stack web applications with robust backend integration and user authentication.",
       "icon": "Layout",
       "button": "Learn More",
-      "link": "https://example.com/web-applications"
-    },
-    {
-      "title": "Virtual Assistant",
-      "description": "Expert in managing administrative tasks using tools like Google Calendar, Notion, and Trello to enhance productivity and organization.",
-      "icon": "BriefcaseBusiness",
-      "button": "Download CV",
-      "download": "/path/to/virtual-assistant-cv.pdf"
+      "link": "https://github.com/IsaacNw321"
     },
     {
       "title": "Customer Support Agent",

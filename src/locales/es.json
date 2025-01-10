@@ -31,14 +31,7 @@
         "description": "Aplicaciones web full-stack con integración robusta de backend y autenticación de usuarios.",
         "icon": "Layout",
         "button": "Saber Más",
-        "link": "https://example.com/web-applications"
-      },
-      {
-        "title": "Asistente Virtual",
-        "description": "Experto en la gestión de tareas administrativas utilizando herramientas como Google Calendar, Notion y Trello para mejorar la productividad y organización.",
-        "icon": "BriefcaseBusiness",
-        "button": "Descargar CV",
-        "download": "/path/to/virtual-assistant-cv.pdf"
+        "link": "https://github.com/IsaacNw321"
       },
       {
         "title": "Agente de Soporte al Cliente",

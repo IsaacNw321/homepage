@@ -5,7 +5,7 @@ import { UseT } from '../context/LanguageContext'
 export default function Contact() {
   const {translations} = UseT();
   return (
-    <section className="w-72 md:w-auto lg:w-auto py-20 px-4 bg-transparent md:bg-gray-900 lg:bg-gray-900">
+    <section className="w-72 md:w-auto lg:w-auto bg-transparent md:bg-gray-900 lg:bg-gray-900">
       <div className="w-72 md:w-auto lg:w-auto max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -27,13 +27,15 @@ export default function Contact() {
                    </div>
                 <div className="flex items-center gap-4">
                   <Github className="w-5 h-5 text-blue-500" />
-                  <a href="https://github.com/yourusername" className="hover:text-blue-500">
+                  <a href="https://github.com/IsaacNw321" target="_blank" 
+                      rel="noopener noreferrer"  className="hover:text-blue-500">
                   {translations.contact.information.github}
                   </a>
                 </div>
                 <div className="flex items-center gap-4">
                   <Linkedin className="w-5 h-5 text-blue-500" />
-                  <a href="https://linkedin.com/in/isaac-pereira-271a65265" className="hover:text-blue-500">
+                  <a href="https://www.linkedin.com/in/isaac-pereira-271a66285/" target="_blank" 
+                      rel="noopener noreferrer"  className="hover:text-blue-500">
                   {translations.contact.information.linkedin}
                   </a>
                 </div>
