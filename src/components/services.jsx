@@ -15,7 +15,7 @@ const iconMap = {
 export default function Services() {
   const { translations, language } = UseT();
   const services = translations.services.items;
-  const cvFile = language === 'es' ? '../cvs/cves.pdf' : '../cvs/cven.pdf'; 
+  const cvFile = language === 'es' ? '/homepage/cves.pdf' : '/homepage/cven.pdf';
 
   return (
     <section className="w-72 mt-10 h-auto md:w-auto md:h-auto flex justify-center lg:w-full lg:h-auto bg-transparent md:bg-gray-900 lg:bg-gray-900">
@@ -62,8 +62,8 @@ export default function Services() {
                       </a>
                     ) : service.download ? (
                       <a 
-                        href={cvFile} 
-                        download 
+                        href={cvFile}
+                        download
                         className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                       >
                         {service.button}

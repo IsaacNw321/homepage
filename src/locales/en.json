@@ -37,7 +37,7 @@
       "description": "Proficient in bilingual communication, providing exceptional customer service with tools like Zendesk and Salesforce.",
       "icon": "Headphones",
       "button": "Download CV",
-      "download": "/path/to/customer-support-cv.pdf"
+      "download": "../../public/cvs/cven.pdf"
     }
   ]
 },

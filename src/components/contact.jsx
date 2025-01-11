@@ -12,7 +12,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className=" mt-10 text-4xl font-bold text-center mb-12">{translations.contact.title}</h2>
+          <h2 className=" mt-20 text-4xl font-bold text-center mb-6">{translations.contact.title}</h2>
           <div className=" grid md:grid-cols-2 gap-12">
             <div className="w-72 md:w-auto lg:w-auto bg-gray-800 p-6 rounded-lg">
               <h3 className="text-2xl font-semibold mb-6">{translations.contact.information.title}</h3>
